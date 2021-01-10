@@ -12,6 +12,8 @@ page = requests.get(URL, headers=headers)
 soup = BeautifulSoup(page.content, 'html.parser')
 contents = soup.find_all('script',type="text/javascript")
 i = 1
+
+values1 = []
 for content in contents:
     if(content.text):
       text = str(content.text)
