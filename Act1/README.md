@@ -11,6 +11,8 @@ pip install slimit
 pip install bs4
 pip install pandas
 pip install numpy
+pip install matplotlib
+pip install sklearn
 ```
 
 ## Usage
